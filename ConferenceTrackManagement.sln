@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceTrackManagement", "ConferenceTrackManagement\ConferenceTrackManagement.csproj", "{0DB7FA88-5ABE-4C9A-AB4D-2A6F1F8352AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F844C205-9BA4-4A48-9E72-4A987AEBD4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceTrackManagement.Tests", "ConferenceTrackManagement.Tests\ConferenceTrackManagement.Tests.csproj", "{75A2DE74-98CA-43BB-B094-9CFA396599D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB7FA88-5ABE-4C9A-AB4D-2A6F1F8352AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB7FA88-5ABE-4C9A-AB4D-2A6F1F8352AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB7FA88-5ABE-4C9A-AB4D-2A6F1F8352AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB7FA88-5ABE-4C9A-AB4D-2A6F1F8352AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A2DE74-98CA-43BB-B094-9CFA396599D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A2DE74-98CA-43BB-B094-9CFA396599D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A2DE74-98CA-43BB-B094-9CFA396599D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A2DE74-98CA-43BB-B094-9CFA396599D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75A2DE74-98CA-43BB-B094-9CFA396599D0} = {F844C205-9BA4-4A48-9E72-4A987AEBD4A4}
+	EndGlobalSection
+EndGlobal
